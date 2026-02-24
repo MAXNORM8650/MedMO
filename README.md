@@ -195,7 +195,7 @@ For questions, issues, or collaborations:
 - **Email**: ankan.deria@mbzuai.ac.ae
 
 
-### Visitor counter
+
 [![website counter](https://counter1.optistats.ovh/private/freecounterstat.php?c=66k58e89czuc2kmr28d19gu7r6mwhafe)](https://www.freecounterstat.com "website counter")
 
 
