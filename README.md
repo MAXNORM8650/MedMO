@@ -193,3 +193,7 @@ This project is licensed under the **Apache License 2.0** - see the [LICENSE](LI
 For questions, issues, or collaborations:
 
 - **Email**: ankan.deria@mbzuai.ac.ae
+
+<div id="sfczywdtxpjlny7bdsu3n59wqwzt78stw9z"></div>
+<script type="text/javascript" src="https://counter1.optistats.ovh/private/counter.js?c=zywdtxpjlny7bdsu3n59wqwzt78stw9z&down=async" async></script>
+<noscript><a href="https://www.freecounterstat.com" title="counter website"><img src="https://counter1.optistats.ovh/private/freecounterstat.php?c=zywdtxpjlny7bdsu3n59wqwzt78stw9z" border="0" title="counter website" alt="counter website"></a></noscript>
