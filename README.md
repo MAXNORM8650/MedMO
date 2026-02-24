@@ -195,3 +195,11 @@ For questions, issues, or collaborations:
 - **Email**: ankan.deria@mbzuai.ac.ae
 
 
+<p align="center">
+  <a href="https://www.freecounterstat.com" title="counter website">
+    <img src="https://counter1.optistats.ovh/private/freecounterstat.php?c=zywdtxpjlny7bdsu3n59wqwzt78stw9z"
+         border="0"
+         title="counter website"
+         alt="visitor counter">
+  </a>
+</p>
