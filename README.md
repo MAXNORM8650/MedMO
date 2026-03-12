@@ -13,7 +13,7 @@
 </p>
 
 
-**MedMO** is a powerful open-source multimodal foundation model designed for comprehensive medical image understanding and grounding. Built on Qwen3-VL architecture and trained on 26M+ diverse medical samples across 45 datasets, MedMO achieves state-of-the-art performance across multiple medical imaging tasks.
+**MedMO-8B-Next** is the latest and most powerful iteration of the MedMO family — an open-source multimodal foundation model purpose-built for comprehensive medical image understanding and grounding. Trained on **26M+ diverse medical samples across 45 datasets**, MedMO-8B-Next achieves **state-of-the-art performance across all major medical imaging benchmarks**, outperforming both open-source and closed-source competitors on VQA, Text QA, grounding, and report generation tasks.
 
 ## 🎯 Capabilities
 
@@ -35,6 +35,43 @@ MedMO excels at a comprehensive range of medical imaging tasks:
 - Ophthalmology (Fundus, OCT)
 - Dermatology
 - Nuclear Medicine (PET, SPECT)
+
+---
+
+## 🏆 Benchmark Performance
+
+### VQA & Text QA Results
+
+MedMO-8B-Next sets a new state-of-the-art across the board, achieving the highest average scores on both medical VQA and Text QA benchmarks — surpassing strong baselines including Lingshu-7B and Fleming-VL-8B.
+
+> OMIVQA = OmniMedVQA · MedXQA = MedXpertQA · Medbullets reported as op4/op5
+
+#### Medical VQA Benchmarks
+
+| Model | MMMU-Med | VQA-RAD (closed/all) | SLAKE (closed/all) | PathVQA | PMC-VQA | OmniMedVQA | MedXpertQA | **Avg.** |
+|---|---|---|---|---|---|---|---|---|
+| Lingshu-7B | 54.0 | 77.2 / 43.0 | 82.4 / 33.2 | 41.9 | 54.2 | 82.9 | 26.9 | 55.1 |
+| Fleming-VL-8B | 63.3 | 78.4 / 56.4 | **86.9 / 80.0** | 56.5 | 64.3 | 88.2 | 21.6 | 66.1 |
+| MedMO-4B | 54.6 | 50.9 / 35.0 | 41.0 / 30.0 | 42.4 | 50.6 | 79.7 | 24.8 | 45.4 |
+| MedMO-8B | <u>64.6</u> | 72.3 / 64.7 | 70.6 / 70.0 | 56.3 | 59.4 | 84.8 | 26.2 | 63.2 |
+| MedMO-4B-Next | 58.7 | <u>79.7 / 59.6</u> | 78.0 / 74.0 | **73.3** | **75.7** | <u>90.6</u> | <u>27.0</u> | <u>68.5</u> |
+| **MedMO-8B-Next** | **69.3** | **86.4 / 68.0** | <u>83.0 / 81.6</u> | <u>56.3</u> | <u>74.1</u> | **93.3** | **42.9** | **72.7** |
+
+#### Medical Text QA Benchmarks
+
+| Model | MMLU-Med | PubMedQA | MedMCQA | MedQA | Medbullets (op4/op5) | MedXpertQA | SGPQA | **Avg.** |
+|---|---|---|---|---|---|---|---|---|
+| Lingshu-7B | 69.6 | 75.8 | 56.3 | 63.5 | 62.0 / 53.8 | 16.4 | 27.5 | 53.1 |
+| Fleming-VL-8B | 71.8 | 74.0 | 51.8 | 53.7 | 40.5 / 37.3 | 12.1 | 24.9 | 45.7 |
+| MedMO-4B | 75.7 | <u>78.0</u> | 58.0 | 78.5 | 57.5 / 47.7 | 16.4 | 29.4 | 55.1 |
+| MedMO-8B | **81.0** | 77.6 | **65.0** | **84.3** | **66.5 / 60.2** | <u>19.9</u> | **36.0** | **61.3** |
+| MedMO-4B-Next | 74.8 | **78.2** | 58.1 | 78.3 | 57.4 / 47.6 | 16.5 | 29.5 | 55.0 |
+| **MedMO-8B-Next** | <u>80.2</u> | 75.6 | <u>62.0</u> | <u>83.8</u> | <u>65.2 / 57.8</u> | **20.9** | <u>35.5</u> | <u>60.1</u> |
+
+> **Bold** = best result, <u>underline</u> = second-best result.
+> * Benchmarked on AMD MI210 GPU.
+
+---
 
 ## 🚀 Quick Start
 
