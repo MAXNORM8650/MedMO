@@ -95,7 +95,7 @@ accelerate launch \
   --config_file examples/accelerate_configs/deepspeed_zero2.yaml \
   --num_machines 8 \                           # ← CHANGE: number of nodes
   --num_processes 64 \                         # ← CHANGE: num_machines × GPUs_per_node
-  --main_process_ip 172.27.112.77 \            # ← CHANGE: master node IP
+  --main_process_ip ... \            # ← CHANGE: master node IP
   --main_process_port 29500 \                  # ← CHANGE: any free port
   --machine_rank 0 \                           # ← CHANGE: 0 for master, 1,2,... for workers
   --same_network \
@@ -163,7 +163,7 @@ DEEPSPEED_BUILD_AIO=0 \
 torchrun \
   --nnodes=8 \                                 # ← CHANGE: number of nodes
   --nproc_per_node=8 \                         # ← CHANGE: GPUs per node
-  --master_addr=172.27.112.28 \               # ← CHANGE: master node IP
+  --master_addr=... \               # ← CHANGE: master node IP
   --master_port=29500 \                        # ← CHANGE: any free port
   --node_rank=0 \                              # ← CHANGE: 0 for master, 1,2,... for workers
   examples/scripts/grpo_vlm.py \
