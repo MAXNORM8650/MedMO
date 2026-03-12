@@ -298,10 +298,3 @@ We gratefully acknowledge the following:
 
 This project is released under the [Apache 2.0 License](LICENSE).
 
----
-
-<div align="center">
-  <b>Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)</b><br>
-  <a href="mailto:ankan.deria@mbzuai.ac.ae">ankan.deria@mbzuai.ac.ae</a> ·
-  <a href="mailto:komal.kumar@mbzuai.ac.ae">komal.kumar@mbzuai.ac.ae</a>
-</div>
