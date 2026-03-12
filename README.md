@@ -158,6 +158,18 @@ For VQAs question answering and report generation tasks, we employed an LLM-as-a
 
 This approach provides robust, scalable assessment of the model's ability to generate detailed, medically accurate long-form responses.
 
+---
+
+## 📦 Model Family
+
+| Model | Parameters | Best For |
+|---|---|---|
+| [MedMO-8B-Next](https://huggingface.co/MBZUAI/MedMO-8B-Next) | 8B | SOTA highest accuracy, all tasks — **recommended** |
+| [MedMO-4B-Next](https://huggingface.co/MBZUAI/MedMO-4B-Next) | 4B | 2nd SOTA, high accuracy in resource-constrained environments |
+| [MedMO-8B](https://huggingface.co/MBZUAI/MedMO-8B) | 8B | Previous generation |
+| [MedMO-4B](https://huggingface.co/MBZUAI/MedMO-4B) | 4B | Resource-constrained environments |
+
+---
 
 For detailed benchmark results, please refer to our paper.
 
