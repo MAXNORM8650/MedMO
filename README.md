@@ -4,6 +4,7 @@
 [![Model](https://img.shields.io/badge/🤗-MedMO--8B--Next-blue)](https://huggingface.co/MBZUAI/MedMO-8B-Next)
 [![Model](https://img.shields.io/badge/🤗-MedMO--8B-blue)](https://huggingface.co/MBZUAI/MedMO-8B)
 [![Model](https://img.shields.io/badge/🤗-MedMO--4B-blue)](https://huggingface.co/MBZUAI/MedMO-4B)
+[![Model](https://img.shields.io/badge/🤗-MedMO--4B--Next-blue)](https://huggingface.co/MBZUAI/MedMO-4B-Nex)
 [![License](https://img.shields.io/badge/License-Apache%202.0-green.svg)](https://opensource.org/licenses/Apache-2.0)
 
 
