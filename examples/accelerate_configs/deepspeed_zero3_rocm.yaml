@@ -1,0 +1,28 @@
+compute_environment: LOCAL_MACHINE
+distributed_type: DEEPSPEED
+num_machines: 1
+num_processes: 4
+machine_rank: 0
+rdzv_backend: static
+same_network: true
+use_cpu: false
+mixed_precision: fp16
+
+deepspeed_config:
+  zero_stage: 3
+  zero3_init_flag: true
+  zero3_save_16bit_model: true
+  offload_optimizer_device: none
+  offload_param_device: none
+  bf16:
+    enabled: false
+  fp16:
+    enabled: true
+  zero_optimization:
+    stage: 3
+    overlap_comm: true
+    contiguous_gradients: true
+    reduce_scatter: true
+    reduce_bucket_size: 500000000
+    stage3_prefetch_bucket_size: 50000000
+    stage3_param_persistence_threshold: 1000000
